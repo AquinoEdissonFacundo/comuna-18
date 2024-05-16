@@ -1,0 +1,23 @@
+.pokemonListContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pokemonListContainer button {
+  color: #fbf5f2;
+}
+.pokemonListContainer h2 {
+  margin: 1em;
+  font-size: 2em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.containerUl {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

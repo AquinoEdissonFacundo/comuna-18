@@ -1,0 +1,13 @@
+.walletcontainer {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  color: #000000;
+  background: #dfdbdb;
+  border-radius: 1em;
+}
+.walletcontainer input {
+  border: 2px solid #1a1a1a;
+  border-radius: 1em;
+  background-color: #1a1a1a;
+}

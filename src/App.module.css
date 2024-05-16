@@ -1,0 +1,108 @@
+/* .container {
+  width: 100%;
+}
+.primeraseccion {
+  display: flex;
+  height: 5em;
+  background: #6d776a;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.containerList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.containerButtomCarga {
+  margin: 1em;
+  color: orange;
+  font-size: 2em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+} */
+
+/* App.module.css */
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containerPrimeraSeccion {
+  display: flex;
+  width: 95%;
+  justify-content: space-around;
+  align-items: center;
+}
+.containerPrimeraSeccion button {
+  background-color: #9d8300;
+}
+.containerPrimeraSeccion button {
+  color: #fff;
+}
+
+button {
+  background-color: #9d8300;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  /* color: #000000; */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #9d8300;
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button-container button {
+  margin-right: 10px;
+}
+
+.containerMonedero {
+  display: flex;
+  margin: 1em;
+  align-items: center;
+  flex-direction: column;
+}
+.containerCargaPokemones {
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 3em;
+  background-color: #9d8300;
+}
+
+.contianerVolver {
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+
+  background-color: #9d8300;
+}
+.foundPokemonName {
+  display: flex;
+  /* margin: 0 auto; */
+  justify-content: center;
+}
+.containerSearch {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  flex-wrap: nowrap;
+  gap: 0.5em;
+}
+.containerSearch button {
+  background-color: #9d8300;
+  margin: 0 auto;
+}

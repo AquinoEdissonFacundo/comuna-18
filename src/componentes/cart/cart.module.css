@@ -1,0 +1,25 @@
+.containerCart {
+  color: rgb(31, 32, 32);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.containerUl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+.containerUl li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+.containerCart button {
+  background-color: #9d8300;
+  margin: 2em;
+}
